@@ -22,4 +22,3 @@ for inn in emails_dict:
     
 with open('emails.json', 'w', encoding='utf-8') as f:
     json.dump({'emails': emails_dict}, f, indent=2, ensure_ascii=False)
-
